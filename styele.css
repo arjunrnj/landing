@@ -1,0 +1,260 @@
+/* body {
+  padding: 0%;
+  margin: 0%;
+} */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  .nav-bar {
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1728px;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    border-bottom: 2px solid #FFFFFF;
+  }
+  
+  .left_nav {
+    position: absolute;
+    width: 173px;
+    height: 29px;
+    left: 38px;
+    top: 29px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+  
+  
+    color: #FFFFFF;
+  }
+  
+  .right-nav {
+    position: absolute;
+    width: 67px;
+    height: 29px;
+    left: 1171px;
+    top: 29px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+  
+  
+    color: #FFFFFF;
+  }
+  
+  .main {
+    position: absolute;
+    width: 1728px;
+    height: 1030px;
+    left: 0px;
+    top: 87px;
+    background: #000000;
+  }
+  
+  .business {
+    position: absolute;
+    width: 1050px;
+    height: 745px;
+    left: 96px;
+    top: 229px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 242px;
+  
+    color: #FFFFFF;
+  
+  }
+  
+  /* .about-us {
+    display: flex;
+    margin: 5%;
+  } */
+  
+  .image {
+    position: absolute;
+    width: 572px;
+    height: 726px;
+    left: 89px;
+    top: 1353px;
+  
+    background: url(pexels-hidden-couple-3048527.jpg);
+  }
+  
+  .about1 {
+    position: absolute;
+    width: 912px;
+    height: 225px;
+    left: 747px;
+    top: 1352px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+  
+    color: #000000;
+  }
+  
+  .p1 {
+    position: absolute;
+    width: 912px;
+    height: 546px;
+    left: 747px;
+    top: 1525px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  
+    color: #000000;
+  }
+  
+  .service-heading {
+    
+  position: absolute;
+  width: 912px;
+  height: 160px;
+  left: 82px;
+  top: 2251px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 121px;
+  
+  color: #000000;
+  }
+  
+  .services {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 599px;
+    height: 423px;
+    left: 82px;
+    top: 2464px;
+  
+    border: 2px solid #000000;
+  }
+  
+  
+  .service1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 599px;
+    height: 423px;
+    left: 747px;
+    top: 2464px;
+    border: 2px solid #000000;
+  }
+  .service2 {
+  
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 599px;
+    height: 423px;
+    left: 747px;
+    top: 2464px;
+    
+    border: 2px solid #000000;
+  }
+  
+  .service3 {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 599px;
+    height: 423px;
+    left: 1412px;
+    top: 2464px;
+    border: 2px solid #000000;
+  }
+  
+  .line {
+    position: absolute;
+    width: 1622px;
+    height: 0px;
+    left: 89px;
+    top: 2987px;
+  
+    border: 10px solid #000000;
+  }
+  
+  #contact-us {
+    position: absolute;
+    width: 1728px;
+    height: 1030px;
+    left: 0px;
+    top: 3213px;
+    background: #000000;
+  }
+  
+  .contactUs-heading {
+    position: absolute;
+    width: 692.27px;
+    height: 144px;
+    left: 518px;
+    top: 3314px;
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+  
+    color: #FFFFFF;
+  }
+  
+  .firstName {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 3728px;
+  
+    border: 1px solid #FFFFFF;
+  }
+  
+  .lastName {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 3622px;
+  
+    border: 1px solid #FFFFFF;
+  }
+  
+  button {
+    position: absolute;
+    width: 260.75px;
+    height: 58px;
+    left: 146px;
+    top: 3941px;
+    background: #FFFFFF;
+  }
+  .contact-us{
